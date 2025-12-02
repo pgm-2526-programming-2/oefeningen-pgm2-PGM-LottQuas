@@ -184,3 +184,60 @@ let objectenArray = [
 ];
 
 //???
+
+//_____________________________________________
+
+// OBJECTS OEFENINGEN:
+
+// ______________________________________________
+
+// Oefening 1: 
+
+let auto = [
+    { merk: "Toyota", model: "Camry", jaar: 2022, kleur: "blauw" }
+];
+
+auto[0].kleur = "rood";
+console.log(auto);
+
+let merknaam = auto[0].merk;
+console.log(merknaam);
+
+auto[0]["brandstof"] = "benzine";
+console.log(auto);
+
+delete auto[0].jaar;
+console.log(auto);
+
+//______________________________________________
+
+// Oefening 2: 
+
+let persoon = [{
+    naam: "Anna",
+    leeftijd: 25,
+    adres: {
+        straat: "Hoofdstraat",
+        nummer: 123,
+        stad: "Stadsville"
+    }
+}];
+
+console.log(persoon);
+
+console.log(persoon[0].adres.nummer);
+
+persoon[0]["telefoon"] = Math.floor(Math.random() * 9000000000) + 1000000000;
+console.log(persoon);
+
+persoon[0]["extraInfo"] = {
+    hobby: "tennis",
+    favorieteKleur: "groen",
+    huisdier: "kat",
+}
+console.log(persoon);
+
+//____________________________________________________
+
+// Oefening 3: 
+
