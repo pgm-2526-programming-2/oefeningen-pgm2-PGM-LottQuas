@@ -62,5 +62,22 @@ console.log(str);
 const wordsWithB = words.find(words => words.toLowerCase().startsWith('b'));
 console.log(wordsWithB);
 
-words.unshift("Hello");
+words.unshift("hello");
 console.log(words);
+
+const longerThanTwo = words.filter(word => word.length > 2);
+console.log(longerThanTwo);
+
+const sortedWords = words.sort();
+console.log(sortedWords)
+
+const thirdWord = words[2];
+console.log(thirdWord)
+
+const longerThanFor = words.filter(word => word.length > 4)
+console.log(longerThanFor)
+
+//_______________________________________________________________
+
+// Oefening 6 :
+
