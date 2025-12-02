@@ -241,3 +241,36 @@ console.log(persoon);
 
 // Oefening 3: 
 
+//function zijnObjectenIdentiek(obj1, obj2) {
+//objectA.equals(objectB)
+//}
+
+//const objectA = { a: 1, b: 2, c: 3 };
+//const objectB = { a: 1, b: 2, c: 3 };
+
+//console.log(zijnObjectenIdentiek(objectA, objectB))
+
+// ???
+
+//________________________________________________________
+
+// Oefening 4 : 
+
+const shoppingCart = {
+    item1: { name: "Product 1", price: 20 },
+    item2: { name: "Product 2", price: 30 },
+    item3: { name: "Product 3", price: 15 },
+};
+
+const itemNames = Object.keys(name);
+console.log("Namen van items:", itemNames);
+
+const itemPrices = Object.values(price);
+console.log("Prijs van items:", itemPrices);
+
+const itemEntries = Object.entries(name, price);
+console.log("Namen en prijzen van items:", itemEntries);
+
+// ????
+
+//_______________________________
