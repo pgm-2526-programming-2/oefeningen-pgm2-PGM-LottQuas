@@ -81,3 +81,106 @@ console.log(longerThanFor)
 
 // Oefening 6 :
 
+const willekeurigeGetallen = [23, 7, 45, 12, 87, 3, 56, 19, 34, 91];
+console.log(willekeurigeGetallen);
+
+const groterDanTien = willekeurigeGetallen.filter(getal => getal > 10);
+console.log(groterDanTien);
+
+willekeurigeGetallen.pop();
+console.log(willekeurigeGetallen);
+
+willekeurigeGetallen.shift();
+console.log(willekeurigeGetallen);
+
+willekeurigeGetallen.push(5);
+console.log(willekeurigeGetallen);
+
+const kleinerDanTwintig = willekeurigeGetallen.filter(getal => getal < 20);
+console.log(kleinerDanTwintig);
+
+const string = willekeurigeGetallen.toString();
+console.log(string);
+
+const som = willekeurigeGetallen.reduce((totaal, getal) => totaal + getal, 0);
+console.log(som);
+
+const verdubbel = willekeurigeGetallen.map(getal => getal * 2);
+console.log(verdubbel)
+
+const groterDanDertig = willekeurigeGetallen.some(num => num > 30);
+console.log(groterDanDertig);
+
+//___________________________________________________
+
+
+// Oefening 7 : 
+
+const willekeurigeNamenArray = [
+    ['Alice', 'Bob', 'Charlie'],
+    ['David', 'Eva', 'Frank'],
+    ['Grace', 'Hank', 'Ivy'],
+    ['Jack', 'Kelly', 'Liam']
+];
+console.log(willekeurigeNamenArray)
+
+const flatArray = willekeurigeNamenArray.flat();
+console.log(flatArray);
+
+const doubleFlattend = willekeurigeNamenArray.flat().map(num => num * 2);
+console.log(doubleFlattend);
+
+const removeFirst = willekeurigeNamenArray.map(subarray => subarray.slice(1));
+console.log(removeFirst);
+
+const removeLast = willekeurigeNamenArray.pop();
+console.log(removeLast);
+
+//____________________________________________
+
+// Oefening 8 : 
+
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+
+const result = array1.map((num, index) => num + array2[index]);
+console.log(array1);
+console.log(array2);
+console.log(result);
+
+//_________________________________________________
+
+// Oefening 9 : 
+
+let woordenArray = ['appel', 'peer', 'kiwi', 'banaan'];
+
+let langsteWoord = woordenArray.reduce((langste, huidige) => {
+    return huidige.length > langste.length ? huidige : langste;
+}, '');
+
+console.log(langsteWoord);
+
+//____________________________________________________
+
+// Oefening 10:
+
+function filterEvenGetallen(getallen) {
+    return getallen.filter(num => num % 2 === 0);
+};
+
+let randomGetallen = [3, 8, 15, 6, 10, 7];
+let evenGetallen = filterEvenGetallen(randomGetallen);
+
+console.log(evenGetallen);
+
+//_________________________________________________________
+
+// Oefening 11: 
+
+let objectenArray = [
+    { naam: 'Anna', leeftijd: 30 },
+    { naam: 'Bob', leeftijd: 25 },
+    { naam: 'Charlie', leeftijd: 35 },
+];
+
+//???
