@@ -20,3 +20,28 @@ const [[a], [, b], [, , c]] = matrix;
 console.log(a);
 console.log(b);
 console.log(c);
+
+// Oefening 3: Destructing en Swap
+
+let x = 5;
+let y = 10;
+
+[x, y] = [y, x];
+
+console.log(x);
+console.log(y);
+
+// Oefening 4: Destructing met Strings
+
+const sentence = "This is a sentence.";
+
+const [firstLetterSentence, ...rest] = sentence;
+const restOfSentence = rest.join("");
+
+console.log(firstLetterSentence);
+console.log(restOfSentence);
+
+// Oefening 5: Destructing in Functies
+
+
+
