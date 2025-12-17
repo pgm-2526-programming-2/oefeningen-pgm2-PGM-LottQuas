@@ -1,0 +1,112 @@
+[
+  {
+    "uuid": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "Eiffel Tower",
+    "country": "France",
+    "city": "Paris",
+    "coordinates": {
+      "lat": 48.8584,
+      "lng": 2.2945
+    }
+  },
+  {
+    "uuid": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+    "name": "Statue of Liberty",
+    "country": "United States",
+    "city": "New York City",
+    "coordinates": {
+      "lat": 40.6892,
+      "lng": -74.0445
+    }
+  },
+  {
+    "uuid": "2f2e5192-d961-464a-a035-2313337a77d1",
+    "name": "Colosseum",
+    "country": "Italy",
+    "city": "Rome",
+    "coordinates": {
+      "lat": 41.8902,
+      "lng": 12.4922
+    }
+  },
+  {
+    "uuid": "a8c6b732-2d93-4e4f-8e4d-6e8d1a2c3b4e",
+    "name": "Sydney Opera House",
+    "country": "Australia",
+    "city": "Sydney",
+    "coordinates": {
+      "lat": -33.8568,
+      "lng": 151.2153
+    }
+  },
+  {
+    "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "name": "Tokyo Tower",
+    "country": "Japan",
+    "city": "Tokyo",
+    "coordinates": {
+      "lat": 35.6586,
+      "lng": 139.7454
+    }
+  },
+  {
+    "uuid": "de305d54-75b4-431b-adb2-eb6b9e546014",
+    "name": "Christ the Redeemer",
+    "country": "Brazil",
+    "city": "Rio de Janeiro",
+    "coordinates": {
+      "lat": -22.9519,
+      "lng": -43.2105
+    }
+  },
+  {
+    "uuid": "6589f81a-6d65-4f76-857c-17e997f621a2",
+    "name": "Burj Khalifa",
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "coordinates": {
+      "lat": 25.1972,
+      "lng": 55.2744
+    }
+  },
+  {
+    "uuid": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+    "name": "Table Mountain",
+    "country": "South Africa",
+    "city": "Cape Town",
+    "coordinates": {
+      "lat": -33.9628,
+      "lng": 18.4098
+    }
+  },
+  {
+    "uuid": "4391e640-1e50-4890-a46c-e090a98f7e22",
+    "name": "Marina Bay Sands",
+    "country": "Singapore",
+    "city": "Singapore",
+    "coordinates": {
+      "lat": 1.2834,
+      "lng": 103.8607
+    }
+  },
+  {
+    "uuid": "8881e7d4-f06b-4e0d-b1e7-8f5d304917a1",
+    "name": "Tower Bridge",
+    "country": "United Kingdom",
+    "city": "London",
+    "coordinates": {
+      "lat": 51.5055,
+      "lng": -0.0754
+    }
+  },
+  {
+    "uuid": "e4f2a1b0-9c3d-4e8a-8f12-7b6c5d4e3f21",
+    "name": "Sagrada Família",
+    "country": "Spain",
+    "city": "Barcelona",
+    "coordinates": {
+      "lat": 41.4036,
+      "lng": 2.1744
+    }
+  }
+]
