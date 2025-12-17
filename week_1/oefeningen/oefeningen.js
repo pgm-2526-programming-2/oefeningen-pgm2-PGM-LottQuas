@@ -43,5 +43,18 @@ console.log(restOfSentence);
 
 // Oefening 5: Destructing in Functies
 
+function multiply([a, b]) {
+    const result = a * b;
+    console.log(result);
+}
+
+multiply([3, 5]);
+multiply([7, 2]);
+
+// Oefening 6: Destructuring en Rest Parameter
+
+const numbers = [1, 2, 3, 4, 5];
+
+
 
 
